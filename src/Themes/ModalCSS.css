@@ -1,0 +1,30 @@
+.Overlay_Load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(71, 71, 71, 0.55);
+}
+
+.Modal_Load {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    top: 45%;
+    left: 50%;
+    right: 50%;
+    bottom:50%;
+    transform: translate(-40%, -40%);
+    position: absolute;
+    padding: 10px;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    -webkit-animation: fadein 2s;
+    -webkit-font-kerning: auto;
+    transition: .10s ease;
+
+}
